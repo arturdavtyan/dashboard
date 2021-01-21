@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Circular;
+  src: url(../fonts/circularstd-book.otf);
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #a8a8a8;
+  }
+}
+
+html {
+  font-size: 15px;
+  font-family: Circular;
+  color: $dark;
+  letter-spacing: 0.4px;
+}

@@ -1,0 +1,17 @@
+.short-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.box {
+  width: 100%;
+  padding: 1.73rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  box-shadow: 0 3px 26px #00000008;
+}
